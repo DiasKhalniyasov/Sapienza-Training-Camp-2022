@@ -3,7 +3,10 @@ Sapienza Training Camp 2022 competition, hosted by Leonardo Labs
 
 main : https://www.kaggle.com/competitions/sapienza-training-camp-2022
 
-In this competition you have to classify 7 different classes of marine ships:
+Our solution: resnext50_32x4d -> linear (7) using pytorch
+Mean F1 Score: 0.97560
+
+In this competition there are 7 different classes of marine ships:
 
 
 0: battleships
@@ -17,8 +20,3 @@ In this competition you have to classify 7 different classes of marine ships:
 
 Every classes have a different number of images per class.
 The images have been scraped from internet, and a certain numer of "no ship" images can be present in the train dataset (e.g. advertising images)
-🙌 You can use ONLY the provided images, external datasets or other scraped images are not permitted
-The test set (hidden) is cleaned
-
-
-Have fun, and good luck!
